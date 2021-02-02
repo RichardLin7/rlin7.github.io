@@ -1,0 +1,77 @@
+/* Web Programming Spring 2021 */
+/* Author: Richard Lin */
+/* Date: 1/30/2021 */
+
+body {
+	background-image: url("background.jpg");
+	background-size: 1920px 1080px;
+	font-family: Sans-Serif;
+}
+
+table {
+	border-spacing: 1;
+	background-color: white;
+	width: 100%;
+	border: 1px solid black;
+}
+
+tr:nth-child(even) {
+	background-color: gray;
+	border: 1px solid black;
+	text-align: center;
+}
+tr:nth-child(odd) {
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+}
+
+a:hover {
+	color: red;
+}
+
+p {
+	background-color: white;
+}
+
+ul {
+	background-color: white;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+	font: italic 200% fantasy;
+}
+
+h2 {
+	color: white;
+	text-align: left;
+	font: 100% fantasy;
+}
+
+h3 {
+	color: white;
+	text-align: center;
+	font: 100% fantasy;
+}
+
+
+div {
+	background-color: white;
+	text-align: left;
+	border: 3px groove grey;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+}
+
+
+span { /*Will red and bold: Georgia State, Computer Science, School, and Games*/
+	font-weight: bold;
+	color: red;
+}
